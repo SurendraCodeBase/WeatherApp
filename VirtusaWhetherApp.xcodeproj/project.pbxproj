@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44BF784C2004542C000F4A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF784B2004542C000F4A63 /* AppDelegate.swift */; };
+		44BF784E2004542C000F4A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF784D2004542C000F4A63 /* ViewController.swift */; };
+		44BF78512004542C000F4A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BF784F2004542C000F4A63 /* Main.storyboard */; };
+		44BF78562004542C000F4A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BF78552004542C000F4A63 /* Assets.xcassets */; };
+		44BF78592004542C000F4A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BF78572004542C000F4A63 /* LaunchScreen.storyboard */; };
+		44BF78642004542C000F4A63 /* VirtusaWhetherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF78632004542C000F4A63 /* VirtusaWhetherAppTests.swift */; };
+		44BF786F2004542C000F4A63 /* VirtusaWhetherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF786E2004542C000F4A63 /* VirtusaWhetherAppUITests.swift */; };
+		44BF7883200454FF000F4A63 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF7882200454FF000F4A63 /* APIService.swift */; };
+		44BF78872004559E000F4A63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF78862004559E000F4A63 /* Constants.swift */; };
+		44BF788A20045882000F4A63 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF788920045882000F4A63 /* Reachability.swift */; };
+		44BF788E20047362000F4A63 /* CityWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF788D20047362000F4A63 /* CityWeatherViewModel.swift */; };
+		44BF789020047549000F4A63 /* CityWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF788F20047549000F4A63 /* CityWeather.swift */; };
+		44BF78942004A46F000F4A63 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF78932004A46F000F4A63 /* Date+Extension.swift */; };
+		44BF78962005B9F4000F4A63 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 44BF78952005B9F4000F4A63 /* content.json */; };
+		44BF78972005B9F4000F4A63 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 44BF78952005B9F4000F4A63 /* content.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44BF78602004542C000F4A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44BF78402004542C000F4A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44BF78472004542C000F4A63;
+			remoteInfo = VirtusaWhetherApp;
+		};
+		44BF786B2004542C000F4A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44BF78402004542C000F4A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44BF78472004542C000F4A63;
+			remoteInfo = VirtusaWhetherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44BF78482004542C000F4A63 /* VirtusaWhetherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtusaWhetherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BF784B2004542C000F4A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44BF784D2004542C000F4A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44BF78502004542C000F4A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44BF78552004542C000F4A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44BF78582004542C000F4A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44BF785A2004542C000F4A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BF785F2004542C000F4A63 /* VirtusaWhetherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaWhetherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BF78632004542C000F4A63 /* VirtusaWhetherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaWhetherAppTests.swift; sourceTree = "<group>"; };
+		44BF78652004542C000F4A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BF786A2004542C000F4A63 /* VirtusaWhetherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaWhetherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BF786E2004542C000F4A63 /* VirtusaWhetherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaWhetherAppUITests.swift; sourceTree = "<group>"; };
+		44BF78702004542C000F4A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BF7882200454FF000F4A63 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		44BF78862004559E000F4A63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		44BF788920045882000F4A63 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		44BF788D20047362000F4A63 /* CityWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherViewModel.swift; sourceTree = "<group>"; };
+		44BF788F20047549000F4A63 /* CityWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeather.swift; sourceTree = "<group>"; };
+		44BF78932004A46F000F4A63 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		44BF78952005B9F4000F4A63 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44BF78452004542C000F4A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF785C2004542C000F4A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF78672004542C000F4A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44BF783F2004542C000F4A63 = {
+			isa = PBXGroup;
+			children = (
+				44BF784A2004542C000F4A63 /* VirtusaWhetherApp */,
+				44BF78622004542C000F4A63 /* VirtusaWhetherAppTests */,
+				44BF786D2004542C000F4A63 /* VirtusaWhetherAppUITests */,
+				44BF78492004542C000F4A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44BF78492004542C000F4A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78482004542C000F4A63 /* VirtusaWhetherApp.app */,
+				44BF785F2004542C000F4A63 /* VirtusaWhetherAppTests.xctest */,
+				44BF786A2004542C000F4A63 /* VirtusaWhetherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44BF784A2004542C000F4A63 /* VirtusaWhetherApp */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78982005BDC9000F4A63 /* Resources */,
+				44BF78882004585D000F4A63 /* Utilities */,
+				44BF788520045575000F4A63 /* Constants */,
+				44BF788420045569000F4A63 /* AppDelegate */,
+				44BF787F2004547D000F4A63 /* Views */,
+				44BF787E20045464000F4A63 /* ViewModel */,
+				44BF787D2004545C000F4A63 /* Model */,
+				44BF787C2004544C000F4A63 /* APIService */,
+				44BF78552004542C000F4A63 /* Assets.xcassets */,
+				44BF785A2004542C000F4A63 /* Info.plist */,
+			);
+			path = VirtusaWhetherApp;
+			sourceTree = "<group>";
+		};
+		44BF78622004542C000F4A63 /* VirtusaWhetherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78632004542C000F4A63 /* VirtusaWhetherAppTests.swift */,
+				44BF78652004542C000F4A63 /* Info.plist */,
+			);
+			path = VirtusaWhetherAppTests;
+			sourceTree = "<group>";
+		};
+		44BF786D2004542C000F4A63 /* VirtusaWhetherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44BF786E2004542C000F4A63 /* VirtusaWhetherAppUITests.swift */,
+				44BF78702004542C000F4A63 /* Info.plist */,
+			);
+			path = VirtusaWhetherAppUITests;
+			sourceTree = "<group>";
+		};
+		44BF787C2004544C000F4A63 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				44BF7882200454FF000F4A63 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		44BF787D2004545C000F4A63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BF788F20047549000F4A63 /* CityWeather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44BF787E20045464000F4A63 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44BF788D20047362000F4A63 /* CityWeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44BF787F2004547D000F4A63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78812004548F000F4A63 /* Storyboard */,
+				44BF788020045486000F4A63 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44BF788020045486000F4A63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44BF784D2004542C000F4A63 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44BF78812004548F000F4A63 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78572004542C000F4A63 /* LaunchScreen.storyboard */,
+				44BF784F2004542C000F4A63 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		44BF788420045569000F4A63 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				44BF784B2004542C000F4A63 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		44BF788520045575000F4A63 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78862004559E000F4A63 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		44BF78882004585D000F4A63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				44BF788920045882000F4A63 /* Reachability.swift */,
+				44BF78932004A46F000F4A63 /* Date+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		44BF78982005BDC9000F4A63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44BF78952005B9F4000F4A63 /* content.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44BF78472004542C000F4A63 /* VirtusaWhetherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44BF78732004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherApp" */;
+			buildPhases = (
+				44BF78442004542C000F4A63 /* Sources */,
+				44BF78452004542C000F4A63 /* Frameworks */,
+				44BF78462004542C000F4A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtusaWhetherApp;
+			productName = VirtusaWhetherApp;
+			productReference = 44BF78482004542C000F4A63 /* VirtusaWhetherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44BF785E2004542C000F4A63 /* VirtusaWhetherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44BF78762004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherAppTests" */;
+			buildPhases = (
+				44BF785B2004542C000F4A63 /* Sources */,
+				44BF785C2004542C000F4A63 /* Frameworks */,
+				44BF785D2004542C000F4A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44BF78612004542C000F4A63 /* PBXTargetDependency */,
+			);
+			name = VirtusaWhetherAppTests;
+			productName = VirtusaWhetherAppTests;
+			productReference = 44BF785F2004542C000F4A63 /* VirtusaWhetherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44BF78692004542C000F4A63 /* VirtusaWhetherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44BF78792004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherAppUITests" */;
+			buildPhases = (
+				44BF78662004542C000F4A63 /* Sources */,
+				44BF78672004542C000F4A63 /* Frameworks */,
+				44BF78682004542C000F4A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44BF786C2004542C000F4A63 /* PBXTargetDependency */,
+			);
+			name = VirtusaWhetherAppUITests;
+			productName = VirtusaWhetherAppUITests;
+			productReference = 44BF786A2004542C000F4A63 /* VirtusaWhetherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44BF78402004542C000F4A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Surendra Singh";
+				TargetAttributes = {
+					44BF78472004542C000F4A63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					44BF785E2004542C000F4A63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44BF78472004542C000F4A63;
+					};
+					44BF78692004542C000F4A63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44BF78472004542C000F4A63;
+					};
+				};
+			};
+			buildConfigurationList = 44BF78432004542C000F4A63 /* Build configuration list for PBXProject "VirtusaWhetherApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44BF783F2004542C000F4A63;
+			productRefGroup = 44BF78492004542C000F4A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44BF78472004542C000F4A63 /* VirtusaWhetherApp */,
+				44BF785E2004542C000F4A63 /* VirtusaWhetherAppTests */,
+				44BF78692004542C000F4A63 /* VirtusaWhetherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44BF78462004542C000F4A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BF78592004542C000F4A63 /* LaunchScreen.storyboard in Resources */,
+				44BF78562004542C000F4A63 /* Assets.xcassets in Resources */,
+				44BF78512004542C000F4A63 /* Main.storyboard in Resources */,
+				44BF78962005B9F4000F4A63 /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF785D2004542C000F4A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BF78972005B9F4000F4A63 /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF78682004542C000F4A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44BF78442004542C000F4A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BF789020047549000F4A63 /* CityWeather.swift in Sources */,
+				44BF78872004559E000F4A63 /* Constants.swift in Sources */,
+				44BF784E2004542C000F4A63 /* ViewController.swift in Sources */,
+				44BF788E20047362000F4A63 /* CityWeatherViewModel.swift in Sources */,
+				44BF788A20045882000F4A63 /* Reachability.swift in Sources */,
+				44BF7883200454FF000F4A63 /* APIService.swift in Sources */,
+				44BF784C2004542C000F4A63 /* AppDelegate.swift in Sources */,
+				44BF78942004A46F000F4A63 /* Date+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF785B2004542C000F4A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BF78642004542C000F4A63 /* VirtusaWhetherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BF78662004542C000F4A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BF786F2004542C000F4A63 /* VirtusaWhetherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44BF78612004542C000F4A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44BF78472004542C000F4A63 /* VirtusaWhetherApp */;
+			targetProxy = 44BF78602004542C000F4A63 /* PBXContainerItemProxy */;
+		};
+		44BF786C2004542C000F4A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44BF78472004542C000F4A63 /* VirtusaWhetherApp */;
+			targetProxy = 44BF786B2004542C000F4A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44BF784F2004542C000F4A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44BF78502004542C000F4A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44BF78572004542C000F4A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44BF78582004542C000F4A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44BF78712004542C000F4A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44BF78722004542C000F4A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44BF78742004542C000F4A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44BF78752004542C000F4A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44BF78772004542C000F4A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaWhetherApp.app/VirtusaWhetherApp";
+			};
+			name = Debug;
+		};
+		44BF78782004542C000F4A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaWhetherApp.app/VirtusaWhetherApp";
+			};
+			name = Release;
+		};
+		44BF787A2004542C000F4A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtusaWhetherApp;
+			};
+			name = Debug;
+		};
+		44BF787B2004542C000F4A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MLF2T39ST;
+				INFOPLIST_FILE = VirtusaWhetherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nam.VirtusaWhetherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtusaWhetherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44BF78432004542C000F4A63 /* Build configuration list for PBXProject "VirtusaWhetherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BF78712004542C000F4A63 /* Debug */,
+				44BF78722004542C000F4A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44BF78732004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BF78742004542C000F4A63 /* Debug */,
+				44BF78752004542C000F4A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44BF78762004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BF78772004542C000F4A63 /* Debug */,
+				44BF78782004542C000F4A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44BF78792004542C000F4A63 /* Build configuration list for PBXNativeTarget "VirtusaWhetherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BF787A2004542C000F4A63 /* Debug */,
+				44BF787B2004542C000F4A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44BF78402004542C000F4A63 /* Project object */;
+}

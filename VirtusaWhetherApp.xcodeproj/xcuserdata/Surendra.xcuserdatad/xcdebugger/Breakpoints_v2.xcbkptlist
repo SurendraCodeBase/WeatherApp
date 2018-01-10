@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWhetherApp/ViewModel/CityWeatherViewModel.swift"
+            timestampString = "537247058.644703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "readJSONDataFromFile(fileName:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWhetherApp/ViewModel/CityWeatherViewModel.swift"
+            timestampString = "537247058.645085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchWeatherData(forCity:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VirtusaWhetherApp.CityWeatherViewModel.fetchWeatherData(forCity: Swift.String, completionHandler: (Swift.Optional&lt;VirtusaWhetherApp.CityWeather&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWhetherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Surendra/Desktop/Tests/VirtusaWhetherApp/VirtusaWhetherApp/ViewModel/CityWeatherViewModel.swift"
+                  timestampString = "537246203.992412"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VirtusaWhetherApp.CityWeatherViewModel.fetchWeatherData(forCity: Swift.String, completionHandler: (Swift.Optional&lt;VirtusaWhetherApp.CityWeather&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWhetherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Surendra/Desktop/Tests/VirtusaWhetherApp/VirtusaWhetherApp/ViewModel/CityWeatherViewModel.swift"
+                  timestampString = "537246203.995461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWhetherAppTests/VirtusaWhetherAppTests.swift"
+            timestampString = "537247058.645149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testFetchRedmondWeather()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;VirtusaWhetherApp.CityWeather&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VirtusaWhetherAppTests.VirtusaWhetherAppTests.testFetchData() -&gt; ()"
+                  moduleName = "VirtusaWhetherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Surendra/Desktop/Tests/VirtusaWhetherApp/VirtusaWhetherAppTests/VirtusaWhetherAppTests.swift"
+                  timestampString = "537246204.738863"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Optional&lt;Any&gt; in closure #1 (Swift.Optional&lt;VirtusaWhetherApp.CityWeather&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VirtusaWhetherAppTests.VirtusaWhetherAppTests.testFetchData() -&gt; ()"
+                  moduleName = "VirtusaWhetherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Surendra/Desktop/Tests/VirtusaWhetherApp/VirtusaWhetherAppTests/VirtusaWhetherAppTests.swift"
+                  timestampString = "537246204.741794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
