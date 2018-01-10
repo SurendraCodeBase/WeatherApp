@@ -67,8 +67,9 @@ class ViewController: UIViewController{
             }
         }
     }
+    
+    //Setting up search bar for city, activity position
     private func setupSearchBar(){
-        //Setting up search bar for city, activity position
         self.activityView.center = self.view.center
         self.searchController = UISearchController(searchResultsController:  nil)
         self.searchController.searchBar.delegate = self
@@ -79,6 +80,7 @@ class ViewController: UIViewController{
         self.definesPresentationContext = true
     }
     
+    //Update ui from weather object
     func updateUI(weather:CityWeather){
         DispatchQueue.main.async {
             //Handle welcome info
@@ -155,6 +157,7 @@ class ViewController: UIViewController{
 //MARK: - UISearchBarDelegate
 extension ViewController:UISearchBarDelegate {
     
+    //Calls when searchBarTextDidEndEditing
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         let searchText = searchBar.text!
         if searchText.count > 0 {
@@ -163,6 +166,7 @@ extension ViewController:UISearchBarDelegate {
         }
     }
     
+    //Calls when searchBarTextDidBeginEditin
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         self.resetUI()
     }

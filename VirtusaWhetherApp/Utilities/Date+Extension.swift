@@ -9,6 +9,7 @@
 import UIKit
 
 extension Date {
+    //Local formating 
     func currentTimeZoneDate() -> String {
         let dtf = DateFormatter()
         dtf.locale = Locale(identifier: "en_US_POSIX")

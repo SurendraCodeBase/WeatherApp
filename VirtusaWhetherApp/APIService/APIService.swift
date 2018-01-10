@@ -11,6 +11,7 @@ import Foundation
 class APIService {
     static let shared = APIService()
     
+    //get weather data for city
     func getWeatherDetails(forCity:String, completionHandler:@escaping(Data?,Error?) -> Void)  {
         let query = DATA_BYNAME + "?APPID=\(APP_KEY)&q=\(forCity.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)"
         var request = URLRequest(url: URL(string:query)!)

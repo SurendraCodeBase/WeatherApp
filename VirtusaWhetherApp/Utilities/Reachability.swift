@@ -11,6 +11,7 @@ import SystemConfiguration
 
 class Reachability{
    
+    //Find out device connected to network
     func isConnectedtoNetwork() -> Bool
     {
         var address = sockaddr_in();
@@ -36,6 +37,7 @@ class Reachability{
         return(isReachable && !needConnection);
     }
     
+    //Find out host is reachble
     func isHostRechable(url:String)->Bool{
         var isRechable:Bool = false
         let url = NSURL(string: url)
